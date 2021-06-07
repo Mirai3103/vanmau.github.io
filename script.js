@@ -5,7 +5,7 @@ function myFunction(id) {
     alert("Copied text" );
   }
   function copyToClipboard(id) {
-    var from = document.getElementById(id);
+    var from = document.getElementById(id).firstChild
     var range = document.createRange();
     window.getSelection().removeAllRanges();
     range.selectNode(from);
