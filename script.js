@@ -5,8 +5,8 @@ function myFunction(id) {
     alert("Copied text" );
   }
   function copyToClipboard(id) {
-    var fromz = document.getElementById(id);
-    var from = fromz.getElementsByClassName('card-body')
+    var from= document.getElementById(id);
+    var fromz = fromz.getElementsByClassName('card-body')
     var range = document.createRange();
     window.getSelection().removeAllRanges();
     range.selectNode(from);
@@ -21,5 +21,4 @@ function changedrop(){
   }else{
     element.classList.add("dropup");
   }
-  console.log("â")
 }
