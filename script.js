@@ -6,7 +6,7 @@ function myFunction(id) {
   }
   function copyToClipboard(id) {
     var from= document.getElementById(id);
-    var fromz = fromz.getElementsByClassName('card-body')
+    // var fromz = fromz.getElementsByClassName('card-body')
     var range = document.createRange();
     window.getSelection().removeAllRanges();
     range.selectNode(from);
