@@ -34,6 +34,7 @@ body {
     text-align: left !important;
     margin-left: 5%  ;
     font-size: 1em;
+    white-space: normal;
 }
 .card-body{
   width: 90%;
