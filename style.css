@@ -30,8 +30,13 @@ body {
     margin-bottom: 0.2em;
 }
 .btn-secondary{
-    width: 100%;
+    width: 90%;
     text-align: left !important;
+    margin-left: 5%  ;
+}
+.card-body{
+  width: 90%;
+  margin-left: 5% ;
 }
 .collapse{
     text-align-last: center;

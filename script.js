@@ -13,3 +13,12 @@ function myFunction(id) {
     document.execCommand('copy');
     window.getSelection().removeAllRanges();
 }
+function changedrop(){
+  var element = document.activeElement.parentElement
+  if(element.classList.contains("dropup")){
+    element.classList.remove("dropup")
+  }else{
+    element.classList.add("dropup");
+  }
+  console.log("â")
+}
