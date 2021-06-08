@@ -3,7 +3,7 @@ body {
   background-attachment: fixed;
 }
 #z {
-  min-height: 600px;
+  min-height: 700px ;
 }
 .container {
   margin-top: 2%;
@@ -14,7 +14,7 @@ body {
 .content {
   border: solid 1px #9b9b9b;
   background-color:  rgba(240, 248, 255, 0.95);
-  min-height: 500px;
+  min-height: 600px;
   padding: 1%;
 }
 .nav-link {
