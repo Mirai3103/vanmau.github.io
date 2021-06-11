@@ -43,3 +43,6 @@ body {
 .collapse{
     text-align-last: center;
 }
+.pills-tab{
+  background-color: blackness(0%);
+}
