@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/pagenumber/Style.css"],"names":[],"mappings":"AAAA,oBACE,cAAe,CAEf,YAAa,CACb,sBACF","file":"4.818e221b.chunk.css","sourcesContent":[".MuiPagination-root {\r\n  margin-top: 2em;\r\n  /* center the pagination */\r\n  display: flex;\r\n  justify-content: center;\r\n}\r\n"]}
